@@ -1,9 +1,15 @@
-
-
 #include <iostream>
 #include <iomanip>
 #include <string>
 #include <vector>
+#include <algorithm>
+
+using std::cout;
+using std::cin;
+using std::endl;
+#include <string>
+#include <vector>
+#include <algorithm>
 
 using std::cout;
 using std::cin;
@@ -18,11 +24,11 @@ using std::setprecision;
 
 struct studentas {
     string vardas, pavarde;
-    vector<int> pazimiai;
+    vector<int> pazymiai;
     int egzaminas;
     float rezultatas;
 };
 
 
 void mano_funkcija();
-void isvedimas();
+
